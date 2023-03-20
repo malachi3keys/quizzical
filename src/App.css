@@ -10,23 +10,22 @@
 body {
   background-color: #F5F7FB;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; 
+}
+
+body > #root > main {
+  min-height: 100vh;
 }
 
 .App {
   background-color: #F5F7FB;
   color: #293264;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 550px;
-  min-height: 550px;
   padding: 10% 7%;
   position: relative;
-  overflow: hidden; /* cut off excess shape */
+  overflow: hidden; /* cut off excess blob shapes */
 }
 
 /* blobs formatted using fancy border radius generator */
